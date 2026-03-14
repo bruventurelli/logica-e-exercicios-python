@@ -1,0 +1,47 @@
+Aplicativo: Betano
+
+Requisitos funcionais:
+Criar uma conta
+Validar a idade mínima requerida por lei de 18 anos
+Realizar um depósito
+Criar uma aposta
+Realizar saque
+ 
+Requisitos não funcionais:
+O sistema deve proteger dados dos usuários através de criptografia de acordo com a Lei Geral de Proteção de Dados
+O sistema deve estar disponível para uso com 99,9% de tempo de uptime
+O sistema deve possuir capacidade de suportar milhares de usuários simultâneos, e picos de acesso de centenas de milhares ou milhões de usuários 
+O sistema deve manter registro de depósitos, saques, operações e apostas	
+O sistema deve possuir uma forma de recuperação de conta em caso de informações de senha ou login perdidos
+
+Regras de negócio:	
+O usuário deve possuir a idade mínima legal de 18 anos
+O usuário deve possuir dados pessoais válidos: Nome, CPF, Data de nascimento
+O usuário só pode realizar apostas se possuir saldo disponível na conta
+Existem valores mínimos e máximos por aposta definidos pela plataforma 
+Saques podem exigir verificação completa da conta, incluindo verificação por duas etapas com envio de fotos (selfies) endereço e foto de documento de identificação oficial
+
+Sugestão de melhoria:
+Personalização da tela inicial baseada em:
+Histórico de apostas
+Esporte favorito
+
+Modo ''iniciante'' 
+Um modo opcional que explicaria:
+tipos de apostas
+como funcionam odds
+exemplos práticos
+
+Inconsistências do aplicativo relatadas por usuários:
+Travamentos, tela branca ou preta e aplicativo se encerrando sozinho
+Falhas no carregamento de saldo ou de apostas ao vivo
+Atrasos em saques via PIX ou exigência repetida de verificação de documentos
+alguns usuários relatam limites muito baixos após ganhos ou restrições inesperadas
+
+Pontos fortes:
+Navegação rápida e clara, menus intuitivos e simples de entender
+permite acompanhar eventos esportivos em tempo real e com streaming de alguns jogos
+dados criptografados com possibilidade de login biométrico para mais segurança
+oferece apostas em mais de 30 esportes diferentes
+notificações personalizadas
+
